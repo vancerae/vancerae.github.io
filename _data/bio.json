@@ -2,7 +2,7 @@
   "basics": {
     "name": "Raeanna Vance",
     "label": "Student",
-    "image": "https://github.com/vancerae.png",
+    "image": "~/Desktop/UH Manoa/fall 25/ICS 314/img/vancerae.jpeg",
     "email": "rvance@hawaii.edu",
     "phone": "(808) 782-7254",
     "url": "https://vancerae.github.io",
@@ -23,9 +23,7 @@
   "interests": [
     { "name": "Consolidating numbers" },
     { "name": "Using fine motor skills" },
-    { "name": "Reading" },
-    { "name": "Robotics" },
-    { "name": "3D Graphics" }
+    { "name": "Reading" }
   ],
 
   "skills": [
@@ -71,7 +69,7 @@
     },
     {
       "name": "United States Navy",
-      "position": "Chief Fire Controlman",
+      "position": "Chief Firecontrolman",
       "url": "https://www.navy.com/",
       "startDate": "2000-01-18",
       "endDate": "2022-01-31",
@@ -98,7 +96,7 @@
 
   "awards": [
     {
-      "title": "University Printed Artist",
+      "title": "University Published Artist",
       "date": "2022-12-13",
       "awarder": "Leeward Community College",
       "summary": "Selected as one of the Hawaiian Studies artists to have artwork displayed.",
