@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/pillow.jpg
+image: img/three-generations.jpg
 title: "Three Generations: A Kapa Kuiki Pillow"
 date: 2022
 published: true
