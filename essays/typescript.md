@@ -8,6 +8,8 @@ labels:
   - Typescript
   - WODs
 image: /img/typescript.jpg
+picture: /img/typescript.jpg
+thumbnail: /img/typescript.jpg
 ---
 
 <img
