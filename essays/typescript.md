@@ -31,5 +31,5 @@ Will it work for me?  Yes.  The structure suits me: a warm-up (read the task, jo
   
 -	Do one slow "form" rep before starting the time trial.
   
-Net: TypeScript provides me with safer, clearer code; WODs give me anxiety.  Together, they are trying to make me faster and more confident, but the stress is not helping.
+Net: TypeScript provides me with safer, clearer code; WODs give me anxiety. Together, they are trying to make me faster and more confident, but the stress is not helping.
 
