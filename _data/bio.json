@@ -1,20 +1,23 @@
 {
+  {
   "basics": {
     "name": "Raeanna Vance",
     "label": "Student",
-    "image": "img/vancerae.jpg",
-    "picture": "img/vancerae.jpg",
-    "headshot": "img/vancerae.jpg",
+    "summary": "I am studying for a B.A. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaiʻi at Mānoa. I expect to graduate in Spring 2027, then continue with an M.L.I.S. in Library Science.",
+    "image": "/img/vancerae.jpg",
+    "picture": "/img/vancerae.jpg",
+    "headshot": "/img/vancerae.jpg",
     "email": "rvance@hawaii.edu",
+    "phone": "(808) 782-7254",
+    "url": "https://vancerae.github.io",
+    "website": "https://vancerae.github.io"
     "phone": "(808) 782-7254",
     "website": "https://vancer.github.io",
     "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii at Mānoa. I expect to graduate in spring 2026.",
     "location": { "address": "91-1143 Waikapoʻo St", "postalCode": "96706", "city": "Ewa Beach", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
-      { "network": "github", "username": "mmaluhia", "url": "http://github.com/changeme" },
-      { "network": "linkedin", "username": "mollymaluhia", "url": "http://linkedin.com/in/changeme" },
-      { "network": "twitter", "username": "mollymal", "url": "http://twitter.com/changeme" },
-      { "network": "instagram", "username": "molly", "url": "http://instagram.com/changeme" }
+      { "network": "github", "username": "vancerae", "url": "https://vancerae.github.io" },
+      { "network": "linkedin", "username": "raeannavance", "url": "https://www.linkedin.com/in/raeanna-vance/" },
     ]
   },
   "interests": [
