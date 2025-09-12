@@ -19,7 +19,6 @@ summary: "Designed from my son's leaf drawing and sewn with my mom coaching me o
 ---
 
 <style>
-  /* ~75% smaller on desktop; wider on phones */
   .project-img { width:25% !important; max-width:100%; height:auto; display:block; margin:0 auto; }
   @media (max-width: 768px) { .project-img { width:90% !important; } }
 </style>
@@ -32,9 +31,9 @@ summary: "Designed from my son's leaf drawing and sewn with my mom coaching me o
   <figcaption>Leaf motif by my son; stitching with my mom on FaceTime—three generations in one pillow.</figcaption>
 </figure>
 
-## Three Generations
-I made this Hawaiian quilt pillow—*kapa kuiki*—with three sets of hands and one line of *moʻokūʻauhau*. My mother guided me on FaceTime, talking me through each stitch and turn; my son drew the leaves that became the single-cut appliqué. I translated his lines into a folded paper template, cut the motif as one piece, needle-turned it to the ground cloth, and echo-quilted the ripples that radiate from the design.
+<h2>Three Generations</h2>
+<p>I made this Hawaiian quilt pillow—<em>kapa kuiki</em>—with three sets of hands and one line of <em>moʻokūʻauhau</em>. My mother guided me on FaceTime, talking me through each stitch and turn; my son drew the leaves that became the single-cut appliqué. I translated his lines into a folded paper template, cut the motif as one piece, needle-turned it to the ground cloth, and echo-quilted the ripples that radiate from the design.</p>
 
-The work was selected for **Pūpū A ʻO ʻEwa: Native Hawaiian Writing and Arts** as “Three Generations.” It’s a small object that holds a bigger lesson from Hawaiian Studies: *ʻike kūpuna* can travel by phone screen; *pilina* (relationship) is built in making; and *kuleana* (responsibility) is to pass knowledge forward, keiki to kūpuna and back again.
+<p>The work was selected for <strong>Pūpū A ʻO ʻEwa: Native Hawaiian Writing and Arts</strong> as “Three Generations.” It’s a small object that holds a bigger lesson from Hawaiian Studies: <em>ʻike kūpuna</em> can travel by phone screen; <em>pilina</em> (relationship) is built in making; and <em>kuleana</em> (responsibility) is to pass knowledge forward, keiki to kūpuna and back again.</p>
 
-**Publication link:** <https://pupuaoewa.edublogs.org/2022/12/13/three-generations/>
+<p><strong>Publication link:</strong> <a href="https://pupuaoewa.edublogs.org/2022/12/13/three-generations/">https://pupuaoewa.edublogs.org/2022/12/13/three-generations/</a></p>
