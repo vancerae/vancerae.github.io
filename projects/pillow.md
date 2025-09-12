@@ -13,7 +13,11 @@ summary: "Made a hawaiian style pillow for a class project."
 
 <div class="text-center p-4">
  
-  <img img src="{{ '/img/three-generations.jpg' | relative_url }}" alt="Three Generations kapa kuiki pillow">
+  <img
+  src="{{ '/img/three-generations.jpg' | relative_url }}"
+  alt="Three Generations kapa kuiki pillow"
+  style="width:25%;height:auto;display:block;margin:0 auto;"
+>.jpg' | relative_url }}" alt="Three Generations kapa kuiki pillow">
 </div>
 
 I made this Hawaiian quilt pillow—kapa kuiki—with three sets of hands and one line of moʻokūʻauhau. My mother guided me on FaceTime, talking me through each stitch and turn; my son drew the leaves that became the single-cut appliqué. I translated his lines into a folded paper template, cut the motif as one piece, needle-turned it to the ground cloth, and echo-quilted the ripples that radiate from the design.
