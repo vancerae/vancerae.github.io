@@ -95,5 +95,17 @@
       "summary": "Selected as one of the Hawaiian Studies artists to have artwork displayed.",
       "url": "https://pupuaoewa.edublogs.org/2022/12/13/three-generations/"
     }
-  ]
+  ],
+  "projects": [
+  {
+    "title": "Three Generations — Kapa Kuiki Pillow",
+    "image": "/img/three-generations.jpg",
+    "url": "https://pupuaoewa.edublogs.org/threegenerations",
+    "date": "2022-12-13",
+    "description": "A Hawaiian quilt (kapa kuiki) pillow designed from my son's leaf drawing and sewn with my mom coaching me on FaceTime; published by Pūpū A ʻO ʻEwa.",
+    "tags": ["Hawaiian Studies", "Kapa Kuiki", "Publication", "ʻIke Kūpuna", "ʻIke Honua"]
+  }
+]
+
+  
 }
