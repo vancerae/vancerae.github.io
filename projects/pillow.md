@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Three Generations: A Kapa Kuiki Pillow
+title: "Three Generations: A Kapa Kuiki Pillow"
 permalink: /projects/pillow.html
 ---
 
