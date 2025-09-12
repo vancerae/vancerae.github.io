@@ -2,9 +2,9 @@
   "basics": {
     "name": "Raeanna Vance",
     "label": "Student",
-    "image": "/img/vancerae.jpg",
-    "picture": "/img/vancerae.jpg",
-    "headshot": "/img/vancerae.jpg",
+    "image": "img/vancerae.jpg",
+    "picture": "img/vancerae.jpg",
+    "headshot": "img/vancerae.jpg",
     "email": "rvance@hawaii.edu",
     "phone": "(808) 782-7254",
     "website": "https://vancer.github.io",
