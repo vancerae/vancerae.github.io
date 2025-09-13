@@ -1,11 +1,15 @@
---- 
-layout: essay 
+---
+layout: essay
 type: essay
-title: "Reflecting on TypeScript, and WODs" 
-date: 2025-09-12 
-published: true 
-labels: - TypeScript - WODs image: /img/typescript.jpg permalink: /essays/typescript.html 
---- 
+title: "Reflecting on TypeScript, and WODs"
+date: 2025-09-12
+published: true
+labels:
+  - TypeScript
+  - WODs
+image: /img/typescript.jpg
+permalink: /essays/typescript.html
+---
 
 <img src="{{ '/img/typescript.jpg' | relative_url }}" alt="TypeScript" class="img-fluid rounded float-start pe-4" style="width:300px; height:auto;" /> 
 
