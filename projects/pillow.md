@@ -29,4 +29,4 @@ I made this Hawaiian quilt pillow—*kapa kuiki*—with three sets of hands and 
 
 The work was selected for **Pūpū A ʻO ʻEwa: Native Hawaiian Writing and Arts** as “Three Generations.” It’s a small object that holds a bigger lesson from Hawaiian Studies: *ʻike kūpuna* can travel by phone screen; *pilina* (relationship) is built in making; and *kuleana* (responsibility) is to pass knowledge forward, keiki to kūpuna and back again.
 
-**Publication:** <https://pupuaoewa.edublogs.org/2022/12/13/three-generations/>
+**Publication:** + "url": "https://pupuaoewa.edublogs.org/2022/12/13/three-generations/"
