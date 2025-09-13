@@ -1,6 +1,7 @@
 --- 
-layout: essay type: 
-essay title: "Reflecting on TypeScript, and WODs" 
+layout: essay 
+type: essay
+title: "Reflecting on TypeScript, and WODs" 
 date: 2025-09-12 
 published: true 
 labels: - TypeScript - WODs image: /img/typescript.jpg permalink: /essays/typescript.html 
