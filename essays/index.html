@@ -1,6 +1,17 @@
+cd "/Users/raeannavance/Desktop/UH Manoa/fall 25/ICS 314/vancerae.github.io"
+
+# Re-write index.html with valid front matter (3-dash lines, multiline YAML)
+cat > index.html <<'HTML'
 ---
-title: Essays
 layout: home
+title: Home
 ---
 
-{% include essays/essays.html %}
+{% include about/about.html %}
+{% include projects/projects.html limit=12 %}
+{% include essays/essays.html limit=6 %}
+HTML
+
+git add index.html
+git commit -m "Fix homepage front matter so Jekyll parses includes"
+git push
