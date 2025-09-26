@@ -1,5 +1,5 @@
 ---
-layout: essay
+layout: none
 type: essay
 title: "Why Coding Standards Matter"
 date: 2025-09-25
@@ -11,54 +11,54 @@ image: /img/Coding-Standards.jpg
 permalink: /essays/why-coding-standards-matter.html
 ---
 
-<p>When the term “coding standards” comes up in conversation, it often
-gets eye rolls and groans. Most people immediately think of trivial
-arguments—tabs vs. spaces, where to put curly braces, or how many blank
-lines should go between functions. However, dismissing coding standards
-as merely personal style preferences overlooks their true
-importance.</p>
-<p>Coding standards go far beyond aesthetics. They help keep code clear,
-consistent, and easy to maintain. They improve team collaboration and
-even serve as a tool for learning. If I had to pick just one software
-engineering practice to enhance the quality of code on a team or
-project, I’d choose setting up and following solid coding standards.</p>
-<p>This past week, I started using ESLint in VS Code, and I was
-surprised by how much I learned. ESLint didn’t just highlight errors—it
-explained why specific code wasn’t ideal. It flagged unused variables,
-questionable conditionals, and redundant snippets. It even caught
-moments when I unknowingly wrote code more like C than JavaScript.</p>
-<p>At first, I took it a little personally. Seeing red underlines
-everywhere made me feel like I was doing everything wrong. Fixing the
-warnings was tedious and, honestly, annoying. But eventually, something
-clicked. I started to see those warnings as mini-lessons built right
-into my editor. I could predict what ESLint would flag, and my code
-slowly became cleaner, more organized, and easier to understand. It felt
-like I was learning the language faster just by paying attention to the
-feedback.</p>
-<p>And that’s when I realized—coding standards aren’t just about
-neatness. They speed up the learning process.</p>
-<p>They're also crucial for teamwork. When everyone writes code the same
-way, it’s easier to read, easier to debug, and easier to share. Without
-a standard, it feels like every file was written in a different dialect.
-With one, a project feels unified, like a story told by a single voice
-instead of a dozen competing ones.</p>
-<p>Sure, ESLint can be frustrating—just like going to the gym, learning
-an instrument, or debugging beyond "Hello World." However, that
-discomfort is a natural part of the growth process. The friction between
-old habits and new best practices is what helps us get better.
-Eventually, those best practices become second nature, and writing good
-code becomes faster and more confident.</p>
-<p>Strong coding standards cover more than formatting. They touch on
-naming conventions, function structure, documentation, architecture, and
-error handling. When used with tools like ESLint or Prettier, they don’t
-just guide—they reinforce. You don’t have to memorize every rule because
-the system gently reminds you along the way.</p>
-<p>In the end, coding standards aren’t just rules—they’re a foundation.
-They shape how we think about programming, how we work with others, and
-how we grow. Debates about spaces versus tabs will likely never cease,
-but the real power of standards lies in what they teach us and how they
-help us build something greater than ourselves.</p>
-<p>That’s why I believe coding standards aren’t optional—they’re
-essential.</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{{ page.title }}</title>
+  <meta name="description" content="An essay on why coding standards matter in software engineering." />
+  <style>
+    body { margin: 2rem auto; max-width: 800px; line-height: 1.65; font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; padding: 0 1rem; }
+    h1 { line-height: 1.2; margin-bottom: 0.25rem; }
+    .meta { color: #666; font-size: 0.95rem; margin-bottom: 1rem; }
+    figure { margin: 1.25rem 0; text-align: center; }
+    figure img { max-width: 100%; height: auto; border-radius: 12px; }
+    figcaption { font-size: 0.95rem; opacity: 0.8; margin-top: 0.5rem; }
+    p { margin: 1rem 0; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>{{ page.title }}</h1>
+    <div class="meta">{{ page.date | date: "%B %d, %Y" }} · {{ page.labels | join: ", " }}</div>
+  </header>
+
+  <figure>
+    <img src="{{ '/img/Coding-Standards.jpg' | relative_url }}" alt="Coding Standards">
+    <figcaption>Why Coding Standards Matter</figcaption>
+  </figure>
+
+  <p>When the term “coding standards” comes up in conversation, it often gets eye rolls and groans. Most people immediately think of trivial arguments—tabs vs. spaces, where to put curly braces, or how many blank lines should go between functions. However, dismissing coding standards as merely personal style preferences overlooks their true importance.</p>
+
+  <p>Coding standards go far beyond aesthetics. They help keep code clear, consistent, and easy to maintain. They improve team collaboration and even serve as a tool for learning. If I had to pick just one software engineering practice to enhance the quality of code on a team or project, I’d choose setting up and following solid coding standards.</p>
+
+  <p>This past week, I started using ESLint in VS Code, and I was surprised by how much I learned. ESLint didn’t just highlight errors—it explained why specific code wasn’t ideal. It flagged unused variables, questionable conditionals, and redundant snippets. It even caught moments when I unknowingly wrote code more like C than JavaScript.</p>
+
+  <p>At first, I took it a little personally. Seeing red underlines everywhere made me feel like I was doing everything wrong. Fixing the warnings was tedious and, honestly, annoying. But eventually, something clicked. I started to see those warnings as mini-lessons built right into my editor. I could predict what ESLint would flag, and my code slowly became cleaner, more organized, and easier to understand. It felt like I was learning the language faster just by paying attention to the feedback.</p>
+
+  <p>And that’s when I realized—coding standards aren’t just about neatness. They speed up the learning process.</p>
+
+  <p>They're also crucial for teamwork. When everyone writes code the same way, it’s easier to read, easier to debug, and easier to share. Without a standard, it feels like every file was written in a different dialect. With one, a project feels unified, like a story told by a single voice instead of a dozen competing ones.</p>
+
+  <p>Sure, ESLint can be frustrating—just like going to the gym, learning an instrument, or debugging beyond "Hello World." However, that discomfort is a natural part of the growth process. The friction between old habits and new best practices is what helps us get better. Eventually, those best practices become second nature, and writing good code becomes faster and more confident.</p>
+
+  <p>Strong coding standards cover more than formatting. They touch on naming conventions, function structure, documentation, architecture, and error handling. When used with tools like ESLint or Prettier, they don’t just guide—they reinforce. You don’t have to memorize every rule because the system gently reminds you along the way.</p>
+
+  <p>In the end, coding standards aren’t just rules—they’re a foundation. They shape how we think about programming, how we work with others, and how we grow. Debates about spaces versus tabs will likely never cease, but the real power of standards lies in what they teach us and how they help us build something greater than ourselves.</p>
+
+  <p>That’s why I believe coding standards aren’t optional—they’re essential.</p>
+
 </body>
 </html>
