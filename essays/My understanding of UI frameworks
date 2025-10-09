@@ -18,7 +18,7 @@ permalink: /essays/ui-frameworks.html
        alt="Left: original LEGO page; Right: Bootstrap 5 recreation."
        style="display:inline-block; max-width:600px; width:90%; height:auto; border:1px solid #ddd; border-radius:6px;">
   <figcaption style="font-size:0.95rem; color:#555; margin-top:0.5rem;">
-    Left: Original LEGO site. Right: Bootstrap 5 recreation by Raeanna Vance.
+    Left: Bootstrap 5 recreation. Right: Original LEGO site.
   </figcaption>
 </figure>
 
