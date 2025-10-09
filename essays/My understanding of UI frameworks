@@ -13,9 +13,11 @@ image: /img/Image.JPEG
 permalink: /essays/ui-frameworks.html
 ---
 
-<figure style="margin:0 0 1rem;">
-<img src="/img/Image.JPEG" alt="UI frameworks comparison">
-<figcaption style="text-align:center; font-size:0.95rem; color:#555; margin-top:0.5rem;">
+<figure style="margin:0 0 1rem; text-align:center;">
+  <img src="/img/Image.JPEG"
+       alt="Left: original LEGO page; Right: Bootstrap 5 recreation."
+       style="display:inline-block; max-width:600px; width:90%; height:auto; border:1px solid #ddd; border-radius:6px;">
+  <figcaption style="font-size:0.95rem; color:#555; margin-top:0.5rem;">
     Left: Original LEGO site. Right: Bootstrap 5 recreation by Raeanna Vance.
   </figcaption>
 </figure>
