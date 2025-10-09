@@ -14,8 +14,8 @@ permalink: /essays/ui-frameworks.html
 ---
 
 <figure style="margin:0 0 1rem;">
-  <img src="/img/Image.JPEG" alt="Bootstrap 5 vs. raw HTML/CSS comparison">
-  <figcaption style="text-align:center; font-size:0.95rem; color:#555; margin-top:0.5rem;">
+<img src="/img/Image.JPEG" alt="UI frameworks comparison">
+<figcaption style="text-align:center; font-size:0.95rem; color:#555; margin-top:0.5rem;">
     Left: Original LEGO site. Right: Bootstrap 5 recreation by Raeanna Vance.
   </figcaption>
 </figure>
