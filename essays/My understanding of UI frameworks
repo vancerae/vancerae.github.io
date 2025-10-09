@@ -13,12 +13,12 @@ image: /img/Image.JPEG
 permalink: /essays/ui-frameworks.html
 ---
 
-<figure style="margin: 0 0 1rem;">
-  <img src="img/Image.JPEG"
-       alt="Side-by-side comparison of a page styled with Bootstrap 5 and a plain HTML/CSS version."
-       style="display:block; margin-inline:auto; max-width: 800px; width: 100%; height: auto; border: 1px solid #ddd; border-radius: 6px;">
+<figure style="margin:0 0 1rem;">
+  <img src="/img/Image.JPEG"
+       alt="Left: original LEGO page; Right: Bootstrap 5 recreation."
+       style="display:block; margin-inline:auto; max-width:800px; width:100%; height:auto; border:1px solid #ddd; border-radius:6px;">
   <figcaption style="text-align:center; font-size:0.95rem; color:#555; margin-top:0.5rem;">
-    Bootstrap 5 (left) vs. raw HTML/CSS (right): speed, consistency, and accessibility out of the box.
+    Left: Original LEGO site. Right: Bootstrap 5 recreation by Raeanna Vance.
   </figcaption>
 </figure>
 
