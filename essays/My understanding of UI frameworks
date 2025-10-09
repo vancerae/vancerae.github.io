@@ -14,7 +14,7 @@ permalink: /essays/ui-frameworks.html
 ---
 
 <figure style="margin: 0 0 1rem;">
-  <img src="/img/ui-frameworks-comparison.jpg"
+  <img src="img/Image.JPEG"
        alt="Side-by-side comparison of a page styled with Bootstrap 5 and a plain HTML/CSS version."
        style="display:block; margin-inline:auto; max-width: 800px; width: 100%; height: auto; border: 1px solid #ddd; border-radius: 6px;">
   <figcaption style="text-align:center; font-size:0.95rem; color:#555; margin-top:0.5rem;">
