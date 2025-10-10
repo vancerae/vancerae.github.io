@@ -1,17 +1,56 @@
-<div class="col-md-6 col-lg-4" xmlns="http://www.w3.org/1999/html">
+{% assign p = include.page %}
+{% assign cover = p.image | default: p.img | default: p.thumbnail | default: p.picture %}
+
+<div class="col-md-6 col-lg-4">
   <div class="card h-100">
+    {% if cover %}
+      <img
+        src="{{ cover | relative_url }}"
+        class="card-img-top"
+        alt="{{ p.title | default: 'Essay cover' | escape }}"
+        loading="lazy">
+    {% endif %}
+
     <div class="card-body">
-      <h5 class="card-title">{{ include.page.title }}</h5>
-      <p class="card-text"><small class="text-muted">{{ include.page.date | date_to_string }}</small></p>
-      <p class="card-text">{{ include.page.content | markdownify | strip_html | truncatewords: 40 }}</p>
-      <p>
-        {% for label in include.page.labels %}
-        <span style="background-color: var(--tf-pill-bg)" class="badge rounded-pill">{{ label }}</span>
-        {% endfor %}
-      </p>
+      <h5 class="card-title">{{ p.title | default: 'Untitled essay' }}</h5>
+      {% if p.date %}
+        <p class="card-text">
+          <small class="text-muted">{{ p.date | date: "%Y-%m-%d" }}</small>
+        </p>
+      {% endif %}
+
+      {% comment %}
+        Show a short excerpt from the essay content (safe: markdownify → strip_html → truncate).
+      {% endcomment %}
+      {% if p.content %}
+        <p class="card-text">
+          {{ p.content | markdownify | strip_html | truncatewords: 40 }}
+        </p>
+      {% endif %}
+
+      {% if p.labels %}
+        <p class="mb-0">
+          {% for label in p.labels %}
+            <span style="background-color: var(--tf-pill-bg)" class="badge rounded-pill">{{ label }}</span>
+          {% endfor %}
+        </p>
+      {% endif %}
     </div>
-    <div class="card-footer">
-      <div class="text-center"><a href="{% if page.essayurl %}{{ page.essayurl }}{% else %}{{ site.baseurl}}{{ include.page.url }}{% endif %}" class="btn btn-outline-dark">Read More</a></div>
+
+    <div class="card-footer bg-transparent border-0">
+      {% comment %}
+        Use p.essayurl if provided (external link), otherwise link to the page URL.
+      {% endcomment %}
+      {% assign href = p.url | relative_url %}
+      {% if p.essayurl %}
+        {% assign href = p.essayurl %}
+      {% endif %}
+      <div class="text-center">
+        <a href="{{ href }}" class="btn btn-outline-dark"
+           {% if p.essayurl and (p.essayurl contains '://') %}target="_blank" rel="noopener"{% endif %}>
+          Read More
+        </a>
+      </div>
     </div>
   </div>
 </div>
