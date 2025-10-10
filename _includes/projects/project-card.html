@@ -7,32 +7,46 @@
       {% if cover %}
         <img
           src="{{ cover | relative_url }}"
-          alt="{{ p.title }}"
+          alt="{{ p.title | default: 'Project cover' | escape }}"
           class="img-fluid rounded-start w-100"
           style="height:225px; object-fit:cover;"
-        >
+          loading="lazy">
       {% endif %}
     </div>
 
     <div class="col-sm-6 col-md-8">
       <div class="card-body">
-        <h5 class="card-title">
-          {{ p.title }}
-          <small class="text-muted float-end">{{ p.date }}</small>
+        <h5 class="card-title d-flex align-items-start justify-content-between">
+          <span>{{ p.title | default: 'Untitled project' }}</span>
+          {% if p.date %}
+            <small class="text-muted ms-2">{{ p.date | date: "%Y-%m-%d" }}</small>
+          {% endif %}
         </h5>
 
         {% if p.summary %}
           <p class="card-text">{{ p.summary }}</p>
         {% endif %}
 
-        <p class="mb-3">
-          {% for label in p.labels %}
-            <span style="background-color: var(--tf-pill-bg)" class="badge rounded-pill">{{ label }}</span>
-          {% endfor %}
-        </p>
+        {% if p.labels %}
+          <p class="mb-3">
+            {% for label in p.labels %}
+              <span style="background-color: var(--tf-pill-bg)" class="badge rounded-pill">{{ label }}</span>
+            {% endfor %}
+          </p>
+        {% endif %}
 
+        {% comment %}
+          Prefer p.projecturl for external sites; otherwise link to the page itself.
+          If you sometimes put internal URLs in p.projecturl, you can wrap with relative_url.
+        {% endcomment %}
         {% if p.projecturl %}
-          <a href="{{ p.projecturl }}" class="btn btn-outline-dark">Project Site</a>
+          {% assign is_external = p.projecturl contains '://' %}
+          <a
+            href="{{ is_external | default: false | if: p.projecturl, p.projecturl | else: p.projecturl | relative_url }}"
+            class="btn btn-outline-dark"
+            {% if is_external %}target="_blank" rel="noopener"{% endif %}>
+            Project Site
+          </a>
         {% else %}
           <a href="{{ p.url | relative_url }}" class="btn btn-outline-dark">Read More</a>
         {% endif %}
